@@ -24,7 +24,7 @@ Run:
 ```bash
 python3 main.py
 ```
-Første gang du kjører programmet, ber det deg opprette administratorkontoen. Etter det blir alle som registrerer seg vanlige brukere.
+Første gang du kjører programmet og lager en bruker, er det admin-kontoen som blir opprettet (og en .csv-fil). Etter det blir alle som registrerer seg vanlige brukere (som er lagret i users.csv).
 
 ## Prosjektplan
 Prosjektet ble planlagt i et Gantt-diagram (other-files/plan-hotelproject.xlsx)
