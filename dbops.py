@@ -184,13 +184,11 @@ def delete_room():
     if find_room(number) is None:
         print("Room not found!")
         return
-    # keep every room except this one
     rooms = []
     for room in read_rows(ROOMS_FILE):
         if room[0] != str(number):
             rooms.append(room)
     write_rows(ROOMS_FILE, rooms)
-    # and delete the reservations of that room too
     reservations = []
     for res in read_rows(RESERVATIONS_FILE):
         if res[0] != str(number):

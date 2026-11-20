@@ -2,7 +2,6 @@ import re
 
 def get_name():
     #2-30 letters
-    #special names like Mary Jane, Jean-Baptiste, O'Brien
     while True:
         name = input(">> ").strip()
         if len(name) < 2 or len(name) > 30:
@@ -38,8 +37,6 @@ def get_email():
 
 
 def get_phone():
-    #any country code
-    #spaces dashesn not allowed
     while True:
         phone = input(">> ").strip()
         phone = phone.replace(" ", "").replace("-", "")
