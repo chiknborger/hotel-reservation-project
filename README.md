@@ -13,7 +13,7 @@ Et command-line hotell reservasjonssystem skrevet i Python. Brukere kan registre
 - **Lagret data:** informasjon lagres i CSV-filene
 
 
-## Innstallasjon
+## Installasjon
 
 
    ```bash
