@@ -15,18 +15,27 @@ Et command-line hotell reservasjonssystem skrevet i Python. Brukere kan registre
 
 ## Innstallasjon
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chiknborger/hotel-reservation-project.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo-name
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   # or: pip install -r requirements.txt
-   ```
 
+   ```bash
+   git clone https://github.com/chiknborger hotel-reservation-project.git
+   cd hotel-reservation-project
+   ```
+Kjør:
+```bash
+python3 main.py
 ```
+Første gang du kjører programmet, ber det deg opprette administratorkontoen. Etter det blir alle som registrerer seg vanlige brukere.
+
+## Prosjektplan
+Prosjektet ble planlagt i et [Gantt-diagram](other-files/gantt-chart-plan-hotelreservation-project.xlsx)
+
+## Mulige forbedringer
+- Avbestille en reservasjon og vise "mine bookinger"
+- En PDF-regning når brukeren logger ut
+- Hashed passorder
+- Flere detaljer om rommene
+
+
+# Refleksjonsnotat
+
+
