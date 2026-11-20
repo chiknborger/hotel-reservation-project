@@ -27,7 +27,7 @@ python3 main.py
 Første gang du kjører programmet, ber det deg opprette administratorkontoen. Etter det blir alle som registrerer seg vanlige brukere.
 
 ## Prosjektplan
-Prosjektet ble planlagt i et Gantt-diagram (other-files/gantt-chart-plan-hotelreservation-project.xlsx)
+Prosjektet ble planlagt i et Gantt-diagram (other-files/plan-hotelproject.xlsx)
 
 ## Mulige forbedringer
 - Avbestille en reservasjon og vise "mine bookinger"
